@@ -131,8 +131,8 @@ body {
 
 .items-ingredients {
   margin: 0;
+  /* margin-left: 30px; */
   margin-bottom: 12px;
-  border: 1px solid red;
 }
 
 .items-ingredients::before {
@@ -144,5 +144,10 @@ body {
   width: 21px;
   height: 21px;
   margin-right: 8px;
-  margin-bottom: 1em;
+  position: absolute;
+}
+
+.text-ingredients {
+  margin-left: 30px;
+  display: block;
 }
