@@ -3,7 +3,7 @@ body {
   padding: 32px 12px 32px;
   font-family: 'Montserrat', sans-serif;
 }
-
+/* header */
 .title {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
@@ -12,7 +12,6 @@ body {
 }
 
 .content-header {
-  /* border: 1px solid red; */
   width: 345px;
   margin: 0;
 }
@@ -32,9 +31,74 @@ body {
   margin: 12px 0 13px;
 }
 
+/* main */
 .preview-food {
   height: 214px;
   width: 352px;
   border-radius: 13px;
   margin-top: 10px;
+}
+
+.yield {
+  margin-top: 22px;
+}
+
+.title-yield {
+  font-weight: 700;
+  font-size: 8px;
+  color: #bdbdbd;
+  margin: 0;
+}
+
+.description-yield {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  margin: 0;
+  color: #f2994a;
+}
+
+/* icons */
+.icons::before {
+  float: left;
+  content: '';
+  display: block;
+  width: 14px;
+  height: 12.2px;
+  margin-top: 4px;
+  margin-right: 5.5px;
+}
+
+.i-yield::before {
+  background: url('../../images/icons/cuchilleria.svg');
+}
+
+.i-time::before {
+  background: url('../../images/icons/reloj.svg');
+}
+
+/* grid */
+.flex-time {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+.icons {
+  width: 111px;
+}
+
+.title-time {
+  font-weight: 700;
+  font-size: 8px;
+  color: #bdbdbd;
+  margin: 0;
+}
+
+.description-time {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12.2px;
+  color: #333333;
+  margin: 0;
 }
