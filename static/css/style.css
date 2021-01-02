@@ -6,7 +6,7 @@ body {
 /* header */
 .title {
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 24px;
   margin: 0;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 .title-yield {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 8px;
   color: #bdbdbd;
   margin: 0;
@@ -89,7 +89,7 @@ body {
 }
 
 .title-time {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 8px;
   color: #bdbdbd;
   margin: 0;
@@ -107,7 +107,7 @@ body {
 
 .title-ingredients {
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
   color: #333333;
   margin-top: 30px;
@@ -131,7 +131,6 @@ body {
 
 .items-ingredients {
   margin: 0;
-  /* margin-left: 30px; */
   margin-bottom: 12px;
 }
 
@@ -150,4 +149,76 @@ body {
 .text-ingredients {
   margin-left: 30px;
   display: block;
+}
+
+.especial-ingredients {
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* intructions */
+.title-instructions {
+  margin: 28px 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.list-instructions {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.items-instructions {
+  margin-top: 9px;
+}
+
+.content {
+  float: left;
+}
+
+.number-ingredient {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2994a;
+  border-radius: 6px;
+  width: 36px;
+  height: 36px;
+}
+
+.number {
+  font-family: 'Playfair Display', serif;
+  margin-top: -9px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.text-intructions {
+  padding-top: 2px;
+  display: block;
+  margin-left: 50px;
+  line-height: 20px;
+  color: #333333;
+}
+
+aside {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 20px;
+  color: #bdbdbd;
+  white-space: pre-line;
+}
+
+.footer {
+  margin-top: 132px;
+  text-align: center;
+}
+
+.footer span {
+  font-weight: 600;
+  font-size: 14px;
+  color: #a9a9a9;
 }
