@@ -79,11 +79,6 @@ body {
   background: url('../../images/icons/reloj.svg');
 }
 
-/* grid */
-.container {
-  display: grid;
-}
-
 /* flex */
 .flex-time {
   display: flex;
@@ -231,8 +226,65 @@ aside {
   color: #a9a9a9;
 }
 
-@media screen and (min-width: 700px) {
-  .container {
-    /* grid-template-columns: 1fr 216px; */
+@media screen and (min-width: 1000px) and (max-width: 2560px) {
+  body {
+    padding: 52px 237px 17px 234px;
+  }
+
+  .title {
+    font-size: 48px;
+    margin-bottom: 12px;
+  }
+
+  .content-header {
+    width: 608px;
+  }
+
+  .header-description {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .preview-food {
+    height: auto;
+  }
+
+  /* .box-icons {
+    border: 1px solid red;
+    justify-content: center;
+    padding: 30px 15px 0 42px;
+    width: 216px;
+    height: 367px;
+  } */
+
+  .flex-time {
+    display: block;
+  }
+
+  .main {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .description-yield {
+    width: 100%;
+  }
+
+  .title-ingredients {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  /* contiene las dos listas ingredients y instruction */
+  .list-descriptions {
+    border: 1px solid red;
+    width: 600px;
+  }
+
+  /* bug */
+  .one {
+    height: 36px;
   }
 }
