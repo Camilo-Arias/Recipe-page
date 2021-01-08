@@ -92,7 +92,7 @@ body {
 
 .title-time {
   font-weight: bold;
-  font-size: 8px;
+  font-size: 0.5em;
   color: #bdbdbd;
   margin: 0;
 }
@@ -226,9 +226,9 @@ aside {
   color: #a9a9a9;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 2560px) {
+@media screen and (min-width: 900px) and (max-width: 2560px) {
   body {
-    padding: 52px 237px 17px 234px;
+    padding: 52px 200px 17px 200px;
   }
 
   .title {
@@ -247,29 +247,55 @@ aside {
 
   .preview-food {
     height: auto;
+    margin-bottom: 48px;
   }
 
-  /* .box-icons {
-    border: 1px solid red;
-    justify-content: center;
-    padding: 30px 15px 0 42px;
-    width: 216px;
-    height: 367px;
-  } */
+  .box-icons {
+    border-radius: 1px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 111px;
+    height: 236px;
+    margin-bottom: 0;
+    padding: 57px 54px 50px 43px;
+  }
+
+  .icons {
+    margin-bottom: 42px;
+  }
 
   .flex-time {
     display: block;
   }
 
   .main {
-    border: 1px solid red;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
   }
 
+  .yield {
+    margin: 0;
+  }
+
+  .title-yield {
+    font-size: 10px;
+  }
+
   .description-yield {
     width: 100%;
+    font-size: 14px;
+  }
+
+  .title-time {
+    font-size: 10px;
+  }
+
+  .description-time {
+    font-size: 14px;
+  }
+  /* contiene las dos listas ingredients y instruction */
+  .list-descriptions {
+    width: 600px;
   }
 
   .title-ingredients {
@@ -277,10 +303,12 @@ aside {
     font-size: 24px;
   }
 
-  /* contiene las dos listas ingredients y instruction */
-  .list-descriptions {
-    border: 1px solid red;
-    width: 600px;
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .list-ingredients {
+    font-size: 16px;
   }
 
   /* bug */
